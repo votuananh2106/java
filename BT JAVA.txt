@@ -1,0 +1,19 @@
+public class BT
+ public static void main(String[] args){
+  float a , b, c, cv
+  Scanner nhap = new Scanner(System.in);
+  System.out.print("nhap a");
+  a = nhap.nextFloat();
+  System.out.print("nhap b");
+  b = nhap.nextFloat();
+  System.out.print("nhap c");
+  c = nhap.nextFloat();
+ if ( (a+b>c) && (a+c>b) && (b+c>a) ) {
+ cv=a+b+c;
+ System.out.print("chu vi bằng ");
+ System.out.print(cv);
+}
+ else {
+ System.out.print("Sai dữ liệu")
+}
+}
